@@ -1,0 +1,67 @@
+$display: flex;
+$opacity: 0.6;
+$gap: 20px;
+$max-width: 1440px;
+$margin: 0 auto;
+$padding: 0 20px;
+
+.container{
+    max-width: $max-width;
+    margin: $margin;
+    padding: $padding;
+}
+
+.box{
+    display: $display;
+    justify-content: end;
+    gap: $gap;
+}
+
+.main{
+    margin-top: 180px;
+    display: $display;
+    gap: $gap+200px;
+}
+
+.main-rght{
+    text-align: center;
+    margin-left: 230px;
+}
+
+.text{
+    width: 335px;
+    height: 166px;
+    opacity: $opacity;
+}
+
+.main-list{
+    display: $display;
+    gap: $gap+10px;
+    margin-top: 50px;
+}
+
+.left-list{
+    display: $display;
+    gap: $gap+106px;
+    margin-left: 20px;
+}
+
+.left-list2{
+    display: $display;
+    gap: $gap+109px;
+    margin-left: 20px; 
+    opacity: $opacity;
+}
+
+.left-list3{
+    display: $display;
+    gap: $gap+130px;
+    margin-left: 20px; 
+}
+
+.left-list4{
+    display: $display;
+    gap: $gap+144px;
+    margin-left: 20px; 
+    opacity: $opacity;
+}

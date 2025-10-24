@@ -1,0 +1,60 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.box {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+}
+
+.main {
+  margin-top: 180px;
+  display: flex;
+  gap: 220px;
+}
+
+.main-rght {
+  text-align: center;
+  margin-left: 230px;
+}
+
+.text {
+  width: 335px;
+  height: 166px;
+  opacity: 0.6;
+}
+
+.main-list {
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.left-list {
+  display: flex;
+  gap: 126px;
+  margin-left: 20px;
+}
+
+.left-list2 {
+  display: flex;
+  gap: 129px;
+  margin-left: 20px;
+  opacity: 0.6;
+}
+
+.left-list3 {
+  display: flex;
+  gap: 150px;
+  margin-left: 20px;
+}
+
+.left-list4 {
+  display: flex;
+  gap: 164px;
+  margin-left: 20px;
+  opacity: 0.6;
+}/*# sourceMappingURL=style.css.map */
